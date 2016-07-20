@@ -1,0 +1,39 @@
+.navbar-nav {
+    margin: 0 -15px;
+}
+
+ul.navbar-nav li {
+    border-bottom: 1px #ffffff solid;
+    background-color: #006400;
+}
+
+ul.navbar-nav li:last-child {
+    border-bottom: none;
+}
+.navbar-default {
+    background-color: #21cc13;
+    color: black;
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+h1 {
+    margin-top: 60px;
+}
+.col {
+    background-color: #ffff00;
+}
+
+@media (max-width: 767px) {
+    .wraper {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+.tech {
+    height: 100px;
+}
